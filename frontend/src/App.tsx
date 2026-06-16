@@ -20,9 +20,9 @@ function App() {
       <Hero data={profileData} />
       <About data={profileData} />
       <Experience data={profileData} />
-      <Education data={profileData} />
       <Projects data={profileData} />
       <Achievements data={profileData} />
+      <Education data={profileData} />
       <Contact data={profileData} />
       <Footer data={profileData} />
       <ChatWidget />

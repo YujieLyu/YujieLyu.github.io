@@ -35,6 +35,7 @@ export interface Project {
 export interface Achievement {
   title: string;
   image: string;
+  url?: string;
   description: string;
 }
 

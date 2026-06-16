@@ -94,7 +94,8 @@ export default function ChatWidget() {
           <div className="flex-1 overflow-y-auto p-4 space-y-3 max-h-80 min-h-[200px]">
             {messages.length === 0 && (
               <p className="text-sm text-gray-400 dark:text-gray-500 text-center mt-8 font-sans">
-                Ask me anything about Jessie!
+                Chat will be available soon! <br />
+                By then you can ask me anything about Jessie!
               </p>
             )}
             {messages.map((msg, i) => (
@@ -131,6 +132,7 @@ export default function ChatWidget() {
           <div className="p-3 border-t border-gray-200 dark:border-gray-700">
             <div className="flex items-center gap-2">
               <input
+                disabled={true}
                 ref={inputRef}
                 type="text"
                 value={input}

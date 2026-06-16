@@ -1,12 +1,12 @@
 import type { ProfileData } from '../types'
 
 export const profileData: ProfileData = {
-  name: "Yujie(Jessie) LYU",
+  name: "Yujie (Jessie) LYU",
   nickname: "Jessie",
   subtitle: "Hi, my name is",
-  tagline: "Crafting Digital Solutions Across Platforms.",
+  tagline: "Building Scalable Solutions & AI-Powered Systems on Azure.",
   heroDescription:
-    "Full stack enthusiast specialising in microservices, mobile app, and web development. Passionate about crafting seamless digital experiences, blending modern tech for style and performance.",
+    "Software Engineer with 6 years of experience designing and delivering scalable enterprise applications, cloud-native solutions, and AI-powered business systems. Passionate about translating complex business requirements into practical technology solutions with .NET, microservices, and Generative AI.",
   avatarUrl: "/images/avatar.jpg",
   socialLinks: [
     { platform: "github", url: "https://github.com/YujieLyu", icon: "github" },
@@ -18,43 +18,42 @@ export const profileData: ProfileData = {
   ],
   aboutImage: "/images/ieaward.jpg",
   aboutText: [
-    "I'm a self-motivated full stack engineer specializing in microservices architecture and development with .NET 8, cross-platform mobile solutions, and web frontend development.",
-    "I aim to leverage my technical expertise, innovative ideas, and problem-solving skills to create value and accelerate self-development.",
+    "I'm a Software Engineer with 6 years of experience designing and delivering scalable enterprise applications, cloud-native solutions, and AI-powered business systems on Azure.",
+    "Experienced in translating complex business requirements into practical technology solutions, with a strong background in .NET, microservices, event-driven architectures, and enterprise integrations. Recently expanded into Generative AI and Azure AI technologies, designing and delivering a RAG-powered enterprise knowledge assistant that leverages LLMs, Azure AI Search, and multi-agent workflows.",
   ],
   techStack: [
-    ".NET",
-    "Progressive Web Apps",
-    "Sitecore Search",
-    "Next.js",
-    "Azure",
-    "React",
-    "Android",
-    "SQL & NoSQL",
+    "Azure OpenAI",
+    "RAG",
+    "Azure AI Search",
     "C#",
-    "Java",
+    ".NET 8/9/10",
+    "Microservices",
+    "React",
+    "TypeScript",
+    "Kafka",
+    "Docker",
   ],
   experiences: [
     {
-      company: "IE",
+      company: "IE Media",
       companyUrl: "https://www.ie.com.au/",
       role: "Software Engineer",
-      period: "Feb 2020 - present",
-      tooltip: "Working as a Software Engineer at IE",
+      period: "2020 - Present",
+      tooltip: "Software Engineer at IE Media Pty Ltd",
       description:
-        "I am currently working as a full stack software developer at IE in Melbourne, VIC. My current role encompasses microservices development with .NET 8, Sitecore 10 Headless and MVC, Sitecore Search, and Progressive Web Apps development crossing Lexus branch website, dealer sites and Lexus Encore app.",
+        "Software Engineer with expertise in enterprise application development, cloud-native architectures, and AI-powered business solutions. Delivered scalable .NET and Azure platforms across consumer web, mobile, eCommerce, and internal AI knowledge systems, working across the full solution lifecycle from architecture and implementation to optimisation and operational support.",
       bullets: [
-        "Full-stack development in a fast-paced Agile team, collaborating across functions to deliver high-quality solutions.",
-        "Designed and implemented the transformation of the Lexus Encore Xamarin app into a Progressive Web App, reducing maintenance costs, improving performance, and unifying mobile and web experiences.",
-        "Led the development of Lexus Search core functionality using Sitecore Search, including source indexing and API development, delivering the project within 3 months.",
-        "Collaborated with Business Analysts to define backend and mobile development requirements for the Lexus eCommercialisation project, leading the dev team to deliver in 2 months.",
-        "Built microservices to decouple frontend and backend dependencies, improving system stability and interaction efficiency.",
-        "Developed RESTful APIs with dynamic data structure support, streamlining form submissions and enhancing system maintainability.",
-        "Proficient in CI/CD and DevOps tools (Azure), project management tools (Jira, Confluence), and modern tech stacks (.NET, Sitecore).",
-        "Proven ability to quickly adapt to new technologies and manage risks in large-scale projects.",
-        "Demonstrated strong communication skills, both written and verbal, and effectively used visual tools like mind maps to enhance collaboration and reduce communication barriers.",
+        "Selected by leadership to lead the RAG-powered enterprise knowledge assistant using Azure OpenAI, Azure AI Search, and Azure Blob Storage to transform historical RFPs and proposals into searchable organisational knowledge.",
+        "Designed multi-agent workflows for RFP analysis, proposal summarisation, outline generation, draft creation, review, and refinement, accelerating proposal development and improving knowledge reuse across teams.",
+        "Led the redesign of a controller-heavy BFF layer into a Vertical Slice architecture using Minimal APIs, improving cohesion and reducing inter-service coupling.",
+        "Replaced fragmented legacy form handling with a single modular submit service and Kafka-backed asynchronous processing, improving resilience under concurrent load.",
+        "Designed and delivered scalable backend solutions for Lexus membership subscription with a State Machine pattern managing 10 distinct membership states.",
+        "Delivered Sitecore Search integration across 5,000+ pages including metadata schema design, custom indexing logic, and dynamic filtering.",
+        "Led technical evaluation and migration proposal from Xamarin to React-based PWA, with CI/CD integration for Azure DevOps pipelines and Fastlane-based App Store distribution.",
+        "Introduced standardised cross-cutting concerns: resilience pipelines, unified exception handling with structured logging, and caching strategy to improve performance and observability.",
       ],
       projectUrl: "https://www.lexus.com.au/owners/apps/lexus-app",
-      projectLabel: "View the project",
+      projectLabel: "View Lexus project",
     },
     {
       company: "Startupbootcamp",
@@ -63,7 +62,7 @@ export const profileData: ProfileData = {
       period: "Mar 2019 – Jun 2019",
       tooltip: "Worked as a Web Developer Intern at Startupbootcamp",
       description:
-        "I worked as part of the software developing Agile team in creative full-stack development (based on PHP Laravel framework, WordPress, Tailwind CSS, Vue.js, RESTful web services) at Startupbootcamp in Melbourne, VIC.",
+        "Worked as part of the software development Agile team in creative full-stack development (PHP Laravel, WordPress, Tailwind CSS, Vue.js, RESTful web services) at Startupbootcamp in Melbourne, VIC.",
       bullets: [],
     },
   ],
@@ -72,26 +71,36 @@ export const profileData: ProfileData = {
       degree: "Master of Information Technology (with Distinction)",
       institution: "The University of Melbourne",
       institutionUrl: "https://www.unimelb.edu.au/",
-      period: "2017 - 2019",
+      period: "Jul 2017 - Jul 2019",
       details: [
         "WAM: 80/100",
         "Main Subjects: Software Modelling and Design, Database System & Information Modelling, Distributed Systems, Mobile Computing Systems Programming, Software Processes and Management, Social Computing, Algorithms and Complexity.",
       ],
     },
+    {
+      degree: "Bachelor of Information Systems",
+      institution: "Shanghai University",
+      institutionUrl: "https://www.shu.edu.cn/",
+      period: "Sep 2010 - Jul 2014",
+      details: [
+        "WAM: 82/100",
+        "Main Subjects: Data Structures and Algorithms, Object-Oriented Programming, Database Systems & Management.",
+      ],
+    },
   ],
   projects: [
     {
-      title: "Lexus Encore App",
+      title: "Lexus Brand Site & Encore App",
       image: "/images/lexus-app.jpg",
       tags: [
         "Progressive Web Apps",
-        "Sitecore 10",
-        "Sitecore Search",
+        "React",
         ".NET",
         "Microservices",
+        "Kafka",
       ],
       description:
-        "A new digital product will ultimately help achieve Lexus's vision of becoming a leader in making luxury personal.",
+        "A digital platform helping achieve Lexus's vision of becoming a leader in making luxury personal — spanning membership, eCommerce, search, and mobile experiences.",
       links: [
         {
           icon: "play",
@@ -120,7 +129,7 @@ export const profileData: ProfileData = {
       image: "/images/focusing.png",
       tags: ["Android", "Java"],
       description:
-        "Focusing is an Android application for self-control of smartphone application usage for my graduation computing project.",
+        "An Android application for self-control of smartphone application usage, built as a graduation computing project.",
       links: [
         {
           icon: "github",
@@ -137,16 +146,23 @@ export const profileData: ProfileData = {
   ],
   achievements: [
     {
-      title: "Have the Courage to Make a Difference Award Winner",
+      title: "Microsoft Certified: Azure AI Engineer Associate (AI-102)",
+      image: "/images/ai-102.png",
+      url: "https://learn.microsoft.com/api/credentials/share/en-us/JessieLyu-4400/ADDE8C4EE62706EB?sharingId=AAD093088AD962B2",
+      description:
+        "Certified in designing and implementing AI solutions on Microsoft Azure, including Azure OpenAI, Azure AI Search, and Document Intelligence.",
+    },
+    {
+      title: "'Have the Courage to Make a Difference' - EOY Award (2023)",
       image: "/images/rocket.jpeg",
       description:
-        "For my ability to challenge the status quo and genuinely enable the freedom to innovate.",
+        "Recognised for challenging the status quo, driving innovation, and delivering meaningful organisational impact.",
     },
     {
       title: "Master of Information Technology with Distinction",
       image: "/images/unimelb-logo.png",
       description:
-        "For my exceptional academic performance and expertise in the field.",
+        "For exceptional academic performance and expertise in the field at the University of Melbourne.",
     },
   ],
   contactText: "Please feel free to get in touch via",

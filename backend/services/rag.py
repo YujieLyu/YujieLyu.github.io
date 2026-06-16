@@ -49,7 +49,7 @@ class RAGService:
         """Generate a response to the user's message using RAG."""
         if not settings.ANTHROPIC_API_KEY:
             return (
-                "Chat is currently unavailable. Please configure an API key."
+                "Chat will be available soon."
             )
 
         if not self._knowledge:
@@ -60,7 +60,7 @@ class RAGService:
 
         client = self.client
         if client is None:
-            return "Chat is currently unavailable. Please configure an API key."
+            return "Chat will be available soon."
 
         system_prompt = SYSTEM_PROMPT_TEMPLATE.format(knowledge=self._knowledge)
 

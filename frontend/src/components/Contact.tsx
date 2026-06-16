@@ -15,9 +15,12 @@ export default function Contact({ data }: ContactProps) {
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-6">
           Get in Touch
         </h2>
-        <div className="p-2 rounded-full bg-blue-100 dark:bg-blue-500/20 text-blue-500 inline-block mb-6">
+        <a
+          href="mailto:jessie.yujie.lyu@gmail.com"
+          className="p-2 rounded-full bg-blue-100 dark:bg-blue-500/20 text-blue-500 inline-block mb-6 hover:bg-blue-200 dark:hover:bg-blue-500/30 transition-colors"
+        >
           <Mail className="w-8 h-8" />
-        </div>
+        </a>
         <p className="text-gray-600 dark:text-gray-400 font-sans text-lg leading-relaxed">
           {data.contactText}{' '}
           <a
