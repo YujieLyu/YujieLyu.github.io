@@ -34,9 +34,14 @@ export default function ChatWidget() {
     setIsLoading(true)
 
     try {
-      const response = await fetch('/api/chat', {
+      const apiBase = import.meta.env.VITE_API_URL
+      const apiKey = import.meta.env.VITE_API_KEY
+      const response = await fetch(`${apiBase}/anwser`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(apiKey && { 'x-api-key': apiKey }),
+        },
         body: JSON.stringify({ message: trimmed }),
       })
 
