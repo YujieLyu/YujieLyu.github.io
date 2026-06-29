@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd "$(dirname "$0")/frontend"
+cd "$(dirname "$0")/../jessie-site-frontend"
 
 if [ ! -d "node_modules" ]; then
     echo "Installing frontend dependencies..."
